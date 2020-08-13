@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brayan's Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "css.css">
+    <scriptsrc = src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" > </script>
+    <script src="script.js"></script>
+  </head>
+  <!-- This is gonna be the top section. We will have the name of the website at the top left and the menu at the top right --->
+  <div class="top_half">
+    <div class= "header">
+      <div class = "website_Name">
+        <a>Brayan's Website </a>
+      </div>
+    <!--The top-left side of the website. The nav bar.--->
+      <div class = "nav">
+        <ul>
+          <li>
+            <a href = "#about">ABOUT</a>
+          </li>
+          <li>
+            <a href = "#skills">SKILLS</a>
+          </li>
+          <li>
+            <a href ="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  <!--The center of the top section -->
+    <div class = "Center-piece">
+      <h1>Brayan Fuentes Lopez</h1>
+      <div class ="line"></div>
+      <h4>Computer Science Student</h4>
+    </div>
+  </div>
+  <!--This is gonna be the section for the about section--->
+  <section class = "about_section">
+    <div class = "Photo">
+         <img src="images/avatar.png">
+    </div>
+    <div v class = "about_row">
+      <div id ='about' class = "about_Container">
+        <div class = "About">
+          <h2>About Me</h2>
+          <p>I'm currently a 3rd year computer science student at California State University, Long Beach.</p>
+          <p>I am approaching my 3rd year and I am currently in the second semester of my 2nd year. I am a hard working student who is willing to go the extra mile to complete my assignments. I am currently looking to gain as much experience in my field before graduation</p>
+          <h2> My Personal Interest</h2>
+          <p>While I'm not trying to exand my understanding of the coding languages I already know, I enjoy using my time to:</p>
+          <ul>
+            <li>Learn new languages(currently trying to learn Japanese)</li>
+            <li>Watch my favorite e-sports game</li>
+            <li>Play games with my</li>
+          </ul>
+        </div>
+        <div class = "basicInfo">
+          <h2>Basic Information</h2>
+            <div class = "basic_col">
+              <p>Age:</p>
+              <p>Email:</p>
+              <p>Phone Number:</p>
+              <p>Languages:</p>
+            </div>
+            <div class = "basic_col2">
+              <p>20</p>
+              <p>fuentesbrayan3@gmail.com</p>
+              <p>(562) 506 - 8194</p>
+              <p>English, Spanish</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--This is gonna be the section for the skills section--->
+  <div id="skills" class = "skill">
+    <div class = "skillContainer">
+      <h1>Skills</h1>
+
+    </div>
+
+  </div>
+
+  <!--Education---->
+  <div class = "education_section">
+      <h1>Education</h1>
+      <div class = "edu_line"></div>
+
+      <div class = "edu_col">
+        <div class = "Mil_card">
+          <div class = "inner_card">
+            <div class = "front_card">
+              <h2>Millikan High School</h2>
+              <h4>2014-2018</h4>
+            </div>
+            <div class="back_card">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "edu_col2">
+        <div class = "CSULB_card">
+          <div class = "inner_card">
+            <div class = "front_card">
+              <h2>California State University, Long Beach</h2>
+              <h4>2018-PRESENT</h4>
+            </div>
+            <div class="back_card">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+<!---Contact container-->
+  <div class = "Contact_section">
+    <div id = "contact" class = "Contact-container">
+      <div class = "Contact-info">
+        <h2>Contact Me</h2>
+      <div class = "line-contact"></div>
+      <div>
+        <p>Feel to contact me with whichever form of communication you would like. I'm usually availabe at any time of the day.</p>
+        <div class="email">
+        <h3>Cell Phone</h3>
+        <p>(562) 506 - 8194</p>
+        <h3>Email</h3>
+        <p>fuentesbrayan3@gmail.com</p>
+      </div>
+      </div>
+
+    </div>
+    </div>
+  </div>
+
+</html>
